@@ -12,7 +12,6 @@ import javax.servlet.http.*;
  *
  * @author TGDD
  */
-//@WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
