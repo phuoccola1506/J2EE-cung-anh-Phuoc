@@ -12,13 +12,12 @@ import javax.servlet.http.*;
  *
  * @author TGDD
  */
-//@WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h1>Xin chào từ Java Servlet!</h1>");
+        out.println("<h1>Nguyen Huu Phuoc</h1>");
     }
 }
